@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import EmployeeList from './components/employee_list';
+
 class App extends Component {
     render() {
         return (
             <div className="app">
-                Hi!
+                <EmployeeList />
             </div>
         );
     }
